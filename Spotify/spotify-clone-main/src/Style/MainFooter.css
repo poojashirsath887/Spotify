@@ -1,0 +1,153 @@
+.mainfooter {
+  background-color: black;
+  color: white;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  padding: 3%;
+}
+
+.flexbox {
+  display: flex;
+  width: 77%;
+  margin: auto;
+  align-items: top;
+  justify-content: center;
+  padding: 3%;
+  gap: 3%;
+}
+
+.flexbox div {
+  width: 15%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1%;
+}
+.flexbox li:hover {
+  color: #8b8e8f;
+  cursor: pointer;
+}
+.flexbox li {
+  list-style-type: none;
+}
+
+#links {
+  width: 30%;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  
+}
+#links div {
+  background-color: #222326;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+#links img{
+  background-color: #222326;
+  color: white;
+}
+
+#links i{ 
+  color: white;
+  font-size: 30px;
+  margin: auto;
+}
+
+#links i:hover{
+  color: #1ed760;
+}
+
+.footer_links {
+  width: 50px;
+  height: 50px;
+}
+
+#spotify {
+  padding: 0;
+  width: 12%;
+  cursor: pointer;
+}
+#spotify img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.head {
+  color: #8b8e8f;
+  font-weight: bold;
+}
+
+.mainfooter p {
+  text-align: right;
+  width: 63%;
+  margin: 1% auto;
+  color: #8b8e8f;
+  cursor: pointer;
+}
+
+#last {
+  display: flex;
+  width: 77%;
+  margin: auto;
+  justify-content: space-between;
+  color: #8b8e8f;
+}
+#last li {
+  list-style-type: none;
+}
+#last > div {
+  display: flex;
+  width: 26%;
+  justify-content: space-around;
+  gap: 0.5%;
+}
+#last > div:nth-child(1) {
+  width: 40%;
+}
+
+@media only screen and (max-width: 900px) {
+  .flexbox {
+    width: 84%;
+    gap: 2%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #spotify {
+    padding: 7px;
+    width: 32%;
+    cursor: pointer;
+  }
+
+  .flexbox div {
+    width: 32%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 1%;
+  }
+
+  .mainfooter p {
+    width: 83%;
+  }
+
+  #last > div:nth-child(1) {
+    width: 40%;
+  }
+  #last {
+    width: 85%;
+  }
+  #last > div {
+    width: 30%;
+    font-size: 11px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    column-gap: 6px;
+  }
+}

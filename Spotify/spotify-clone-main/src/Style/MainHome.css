@@ -1,0 +1,90 @@
+.home {
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-position: 45% 6%;
+  background-size: 175%;
+  height: 840px;
+  text-align: center;
+  position: relative;
+  background-color: #2941ab;
+}
+
+#listen {
+  position: absolute;
+  top: 0%;
+  left: 12%;
+  width: 77%;
+  margin: auto;
+  margin-top: 12%;
+}
+
+#listen h1 {
+  font-size: 156px;
+  line-height: 166px;
+  color: #1ed760;
+  text-align: left;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  letter-spacing: -10px;
+}
+
+#listen h1 h1 {
+  margin-left: 27%;
+}
+
+.home p {
+  color: #1ed760;
+  margin: 3%;
+  font-weight: 500;
+}
+
+.home button {
+  background-color: #1ed760;
+  font-size: 15px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: #2941ab;
+  padding: 14px 25px;
+  font-weight: 600;
+  border: none;
+}
+
+.home button:hover {
+  padding: 17px 28px;
+  font-size: 16px;
+}
+
+#every {
+  margin-left: 27%;
+}
+
+@media only screen and (max-width: 900px) {
+  .home {
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-position: center top 123%;
+    background-repeat: no-repeat;
+    background-size: 215%;
+    height: 100vh;
+    /* text-align: center; */
+    /* position: relative; */
+  }
+  .home p {
+    margin: 5% 0;
+  }
+
+  #listen h1 {
+    font-size: 35px;
+    line-height: 38px;
+    color: #1ed760;
+    text-align: center;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+  #listen {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    margin-top: 30%;
+  }
+  #every {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,55 @@
+.recent_head {
+  font-size: 24px;
+  margin-bottom: 2vw;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 1vw;
+  row-gap: 0.5vw;
+}
+
+.display_card {
+  width: 10vw;
+  background-color: #121212;
+  padding: 1.5vw;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 0.5vw;
+}
+.display_card:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+.display_card p {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.display_card img {
+  width: 7vw;
+  border-radius: 0.5vw;
+}
+.display_card h5 {
+  width: 100%;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.CardMain {
+  height: 600px;
+  margin-bottom: 15%;
+}
+
+.topalbums {
+  margin-top: 2%;
+}

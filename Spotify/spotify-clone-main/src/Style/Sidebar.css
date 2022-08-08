@@ -1,0 +1,52 @@
+.sidebar {
+  height: 100vh;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 0.1.5;
+  min-width: 14vw;
+  background-color: #040404;
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+.sidebar__logo {
+  padding: 10px;
+  margin: auto;
+}
+.sidebar__title {
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.playlist_side {
+  height: 65vh;
+  overflow-y: scroll;
+}
+
+.playlist_side::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+/* Track */
+.playlist_side::-webkit-scrollbar-track {
+  background: #040404;
+}
+
+/* Handle */
+.playlist_side::-webkit-scrollbar-thumb {
+  background: darkgray;
+}
+
+.ative {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+}
